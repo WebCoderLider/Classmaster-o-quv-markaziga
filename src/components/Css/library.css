@@ -1,0 +1,49 @@
+.Library{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 135px;
+}
+.Library .Books .Book{
+    margin: 30px 0;
+    width: 350px;
+    text-align: center;
+}
+
+.Library .Books .categoriesMath h2{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.Library .Books{
+    line-height: 45px;
+}
+
+.Library .Books .Book h4{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin: 15px 0;
+}
+.Library .Books .Book a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: blueviolet;
+    transition: all 0.2s;
+}
+.Library .Books .Book a:hover{
+    background: blueviolet;
+    color: white;
+    transition: all 0.2s;
+}
+
+.categoriesMath h2 i{
+    margin: 0 0 0 15px;
+}

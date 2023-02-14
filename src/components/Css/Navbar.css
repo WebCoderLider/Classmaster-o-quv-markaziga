@@ -1,0 +1,93 @@
+.Navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 55px;
+    box-shadow: 0 0 15px pink;
+    position: fixed;
+    width: 95%;
+    background-color: white;
+    z-index: 99999999;
+}
+
+.Navbar .Media__Logo button {
+    display: none;
+}
+
+.Navbar .Media__Logo b {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.Navbar .Navigators {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 0 0;
+}
+
+.Navbar .Navigators li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+.Navbar .Navigators a:hover{
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+
+.Navbar .Navigators a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+@media (max-width: 837px) {
+    .Navigators {
+        display: none !important;
+    }
+
+    .Navbar .Media__Logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .Navbar .Media__Logo button {
+        display: block;
+        font-size: 1.6rem;
+        border: none;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.0);
+        left: 90%;
+    }
+
+    .Navigatotrs__show {
+        display: block !important;
+        margin-top: 5rem;
+        margin-right: 35vw;
+        animation: Navigatotrs__show 1s;
+    }
+
+    @keyframes Navigatotrs__show {
+        0%{
+          margin-top: 0rem;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .Navbar .Media__Logo b {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 260px) {
+    .Navigatotrs__show {
+        position: relative;
+        left: -5rem;
+    }
+}

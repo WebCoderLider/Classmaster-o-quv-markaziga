@@ -1,0 +1,98 @@
+.ContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ContactUs form input:focus {
+    box-shadow: 0 10px 15px blueviolet;
+    transition: all 0.2s;
+}
+
+.ContactUs form input {
+    width: 365px;
+    margin: 10px 6px;
+    padding: 15px 5px;
+    border: 1px solid blueviolet;
+    outline: none;
+    border-radius: 15px;
+    transition: all 0.2s;
+    font-weight: 900;
+}
+
+.ContactUs form #phone_number {
+    width: 755px;
+}
+
+.ContactUs form #message {
+    width: 755px;
+}
+
+.ContactUs form button {
+    width: 755px;
+    margin: 10px 6px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid blueviolet;
+    background: rgba(0, 0, 0, 0.0);
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ContactUs form {
+    line-height: 100px;
+}
+
+.ContactUs form button:hover {
+    background: blueviolet;
+    color: white;
+    transition: all 0.2s;
+    box-shadow: 0 5px 10px blueviolet;
+}
+
+.ContactUs iframe {
+    width: 500px;
+    height: 400px;
+    border: none;
+}
+
+@media (max-width: 780px) {
+    .ContactUs form input {
+        width: 400px;
+    }
+
+    .ContactUs form #phone_number,
+    .ContactUs form #message {
+        width: 400px;
+    }
+
+    .ContactUs form button {
+        width: 400px;
+    }
+
+    .ContactUs form {
+        text-align: center;
+    }
+}
+
+@media (max-width: 488px) {
+    .ContactUs .iframe {
+        max-width: 300px;
+    }
+
+    .ContactUs form input {
+        width: 300px;
+    }
+
+    .ContactUs form #phone_number,
+    .ContactUs form #message {
+        width: 300px;
+    }
+
+    .ContactUs form button {
+        width: 300px;
+    }
+}

@@ -1,0 +1,59 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    /* width: 1320px; */
+}
+
+.BlogImg img {
+    display: block;
+    margin: 15px;
+    width: 300px;
+}
+
+.Container h4 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.Container h4 span {
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.Container .BlogImg .card a {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px #8b8b8ba8 inset;
+    border-radius: 8px;
+}
+
+.Container .clickstate {
+    border-bottom: 3px solid red;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red inset;
+}
+
+@media (max-width: 320px) {
+    .Container .BlogImg .card img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 260px) {
+    .Container .BlogImg .card img {
+        width: 200px;
+    }
+}

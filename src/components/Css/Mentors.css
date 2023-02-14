@@ -1,0 +1,51 @@
+.MentorsPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mentors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.MentorsPage .Mentors .Mentor{
+    width: 300px;
+    padding: 0 0 25px 0;
+    margin: 15px;
+    box-shadow: 0 0 25px pink;
+}
+.MentorsPage .Mentors .Mentor img{
+    width: 100%;
+}
+.MentorsPage .Mentors .Mentor h4{
+    font-family: sans-serif;
+    margin: 15px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.MentorsPage .Mentors .Mentor h5{
+    margin: 15px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    background: blueviolet;
+    display: inline;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+.MentorsPage .Mentors .Mentor p{
+    margin: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+.MentorsPage .Mentors .Mentor a{
+    margin: 15px;
+    text-decoration: wavy;
+    font-family: sans-serif;
+    color: blueviolet;
+    font-weight: 900;
+}

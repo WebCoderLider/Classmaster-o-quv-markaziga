@@ -1,0 +1,87 @@
+.Courses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Courses .Course img {
+    width: 350px;
+}
+
+.Courses .Course {
+    width: 350px;
+    margin: 25px 15px;
+    box-shadow: 0 15px 85px #fdb5c1;
+    padding: 0 0 25px 0;
+}
+
+.Courses .Course b {
+    font-family: sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin: 0 10px;
+}
+
+.Courses .Course h4 {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    margin: 5px 0;
+    margin: 5px 10px;
+}
+
+.Course__img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Course__img img {
+    position: sticky;
+    transition: all 0.5s;
+}
+
+.Course__img:hover h1 a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-size: 1rem;
+}
+
+.Course__img:hover h1 a:hover{
+    background: white;
+    color: #892be2d7;
+    transition: all 0.5s;
+}
+
+.Course__img:hover h1 {
+    position: relative;
+    left: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    background: #892be2d7;
+    z-index: 1;
+    padding: 87.2px 0;
+    transition: all 0.5s;
+}
+
+.Course__img h1 {
+    position: relative;
+    left: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    padding: 87.2px 0;
+    transition: all 0.5s;
+}

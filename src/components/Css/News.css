@@ -1,0 +1,57 @@
+.NewsPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Aksiyalar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.Aksiyalar::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.Aksiyalar .aksiya {
+    width: 250px;
+    margin: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px pink;
+}
+
+.Aksiyalar .aksiya img {
+    width: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Aksiyalar .aksiya h3 {
+    margin: 0 0 10px 10px;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+
+.Aksiyalar .aksiya p {
+    margin: 0 0 10px 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 19px;
+    font-size: 0.9rem;
+}
+
+.btnchegirma{
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.chegirmah1{
+    text-align: left;
+    margin: 10px 125px;
+    border-bottom: 2px solid blueviolet;
+}
