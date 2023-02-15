@@ -20,12 +20,12 @@ function Navbar() {
                 </div>
                 <ul className="Navigators" id='Navigatotrs__show'>
                     <li onClick={aboutClassMaster} className="Navbar__list"><Link to=''>about</Link></li>
-                    <li className="Navbar__list"><Link to='/books'>library</Link></li>
-                    <li className="Navbar__list"><Link to='/news'>news</Link></li>
-                    <li className="Navbar__list"><Link to='/course'>course</Link></li>
-                    <li className="Navbar__list"><Link to='/mentors'>mentors</Link></li>
-                    <li className="Navbar__list"><Link to='/blog'>galereya</Link></li>
-                    <li className="Navbar__list"><Link to='/contactus'>contactus</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/books'>library</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/news'>news</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/course'>course</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/mentors'>mentors</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/blog'>galereya</Link></li>
+                    <li className="Navbar__list"><Link onClick={clickbtn} to='/contactus'>contactus</Link></li>
                 </ul>
             </nav>
 
